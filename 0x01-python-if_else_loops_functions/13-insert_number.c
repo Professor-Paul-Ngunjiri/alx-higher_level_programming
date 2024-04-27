@@ -30,14 +30,3 @@ listint_t *insert_node(listint_t **head, int number)
 
 	return (new);
 }
-
-
-100-print_tehbapla.py
-
-#!/usr/bin/python3
-for i in range(ord('z'), ord('a') - 1, -1):
-    if i % 2 == 0:
-        diff = 0
-    else:
-        diff = 32
-    print('{}'.format(chr(i - diff)), end='')
